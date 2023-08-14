@@ -1,0 +1,372 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+html, body
+{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+/* navbar starts */
+
+nav
+{
+    /* border: 1px solid red; */
+    display: inline;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    box-shadow: 1px 0px 20px 0px rgba(189, 186, 186, 0.66);
+    background-color: white;
+    z-index: 2;
+}
+
+nav ul
+{
+    /* border: 8px solid green; */
+    display: inline;
+    margin-left: 380px;
+}
+
+nav ul li
+{
+    /* border: 1px solid yellow; */
+    display: inline;
+}
+
+nav .family-logo
+{
+    /* border: 2px solid rebeccapurple; */
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav .family-logo a
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: #24325d;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 35px;
+    color: #24325d;
+    transition: color .5s;
+    
+}
+
+nav ul li a:hover
+{
+    color: #006fbe;
+}
+/* navbar ends */
+
+/* bg event starts */
+.eve
+{
+    margin: 10px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eve h1{
+    font-weight: 300;
+}
+
+.eve h2
+{
+    font-weight: 180;
+    font-size: 17px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+#Home
+{
+    text-decoration: none;
+    color: #006fbe;
+}
+#Home:hover
+{
+    color: #599fd1;
+}
+
+/* bg event ends */
+
+/* Our Story starts */
+.our-story
+{
+    border: 2px solid white;
+    width: 100%;
+    background-color: white;
+}
+
+.our-story .con-1, .con-2,.con-3, .con-4, .con-5
+{
+    height: 450px;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    flex-direction: row;
+    margin: 60px auto;
+    width: 92%;
+    justify-content: space-between;
+}
+
+.our-story .con-1 .text, .con-2 .text, .con-3 .text, .con-4 .text, .con-5 .text
+{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 49%;
+}
+
+.our-story .con-1 .text h3, .con-2 .text h3, .con-3 .text h3, .con-4 .text h3, .con-5 .text h3
+{
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+    color: #202020;
+    padding-bottom: 12px;
+}
+
+.our-story .con-1 .text p, .con-2 .text p, .con-3 .text p, .con-4 .text p, .con-5 .text p
+{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: 17px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.our-story .con-1 .text ul li, .con-2 .text ul li, .con-3 .text ul li, .con-4 .text ul li, .con-5 .text ul li
+{
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.our-story .con-1 .pic, .con-2 .pic, .con-3 .pic, .con-4 .pic, .con-5 .pic
+{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 49%;
+}
+
+.our-story .con-1 .pic img, .con-2 .pic img, .con-3 .pic img, .con-4 .pic img, .con-5 .pic img
+{
+    height: 100%;
+    width: 100%;
+}
+
+ul li i
+{
+    color: #006fbe;
+}
+
+
+
+/* Our Story ends */
+
+/* People starts */
+
+.pep
+{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid aqua; */
+    padding: 30px 140px;
+}
+
+.pep .people
+{
+    width: 380px;
+    height: 546px;
+    /* border-radius: 10px; */
+    /* border: 3px solid rebeccapurple; */
+    padding: 20px 20px;
+}
+
+.pep .people .P1
+{
+    /* border: 2px solid hotpink; */
+    position: relative;
+    overflow: hidden;
+}
+
+.pep .people .P1 img
+{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 10px; */
+    /* border: 2px solid red; */
+}
+
+.people .text
+{
+    margin-top: -12px;
+    width: 100%;
+    height: 35%;
+    /* border: 2px solid green; */
+}
+
+.people .text h3
+{
+    font-size: 19px;
+    color: #555555;
+    margin-top: 13px;
+}
+
+.people .text .post
+{
+    font-size: 14px;
+    font-family: 400;
+    color: #006fbe;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.people .text .para
+{
+    font-size: 15px;
+    font-style: italic;
+    line-height: 27px;
+    color: #888888;
+    /* margin: 1px; */
+}
+
+.P1 .icon
+{
+    text-align: center;
+    background-color: rgba(0, 111, 190, 0.8);
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    height: 0%;
+    /* border: 2px solid red; */
+    transition: height .5s;
+}
+
+.P1 .icon i
+{
+    color: white;
+    font-size: 24px;
+    margin: 12px 14px;
+}
+
+.people:hover .icon
+{
+    height: 12%;
+}
+
+
+
+
+/* People ends */
+
+/* Footer start */
+
+.footer
+{
+    height: 310px;
+    background: #1d284b;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 0;
+    /* border: 2px solid red; */
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer h2
+{
+    font-size: 38px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 15px 0;
+}
+
+.footer .footer-para
+{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0 0 40px 0;
+}
+
+.footer-icon
+{
+    /* border: 2px solid red; */
+    margin: 30px;
+}
+
+.footer-icon .footer-icon-i
+{
+    font-size: 20px;
+    display: inline-block;
+    background: #006fbe;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.footer .copyright
+{
+    margin-bottom: 5px;
+}
+/* Footer end */
+
+
+/* scroll arrow starts */
+.scroll-arrow
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: #006fbe;
+    /* border: 2px solid yellow; */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
+.scroll-arrow a{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+/* scroll arrow ends */

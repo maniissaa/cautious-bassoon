@@ -1,0 +1,298 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+html, body
+{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+/* navbar starts */
+
+nav
+{
+    /* border: 1px solid red; */
+    display: inline;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    box-shadow: 1px 0px 20px 0px rgba(189, 186, 186, 0.66);
+    background-color: white;
+    z-index: 2;
+}
+
+nav ul
+{
+    /* border: 8px solid green; */
+    display: inline;
+    margin-left: 380px;
+}
+
+nav ul li
+{
+    /* border: 1px solid yellow; */
+    display: inline;
+}
+
+nav .family-logo
+{
+    /* border: 2px solid rebeccapurple; */
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav .family-logo a
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: #24325d;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 35px;
+    color: #24325d;
+    transition: color .5s;
+    
+}
+
+nav ul li a:hover
+{
+    color: #006fbe;
+}
+/* navbar ends */
+
+/* bg event starts */
+.eve
+{
+    margin: 10px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eve h1{
+    font-weight: 300;
+}
+
+.eve h2
+{
+    font-weight: 180;
+    font-size: 17px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+#Home
+{
+    text-decoration: none;
+    color: #006fbe;
+}
+#Home:hover
+{
+    color: #599fd1;
+}
+
+/* bg event ends */
+
+
+/* Event starts */
+.Events
+{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    /* border: 2px solid chocolate; */
+    
+
+}
+
+.Events .info 
+{
+    width: 93%;
+    height: 700px;
+    margin: 0px 50px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.Events .info .sec-1
+{
+    margin-top: 50px;
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+}
+
+.Events .info .sec-1 .pic-1
+{
+    /* border: 2px solid blue; */
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.Events .info .sec-1 .pic-1 img
+{
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+    transition: all .5s;
+    
+}
+.Events .info .sec-1:hover .pic-1 img
+{
+    transform: scale(1.2);
+}
+
+.Events .info .sec-1 .C1
+{
+    height: 260px;
+    width: 546px;
+    margin: -80px 35px;
+    padding: 30px;
+    background-color: white;
+    border-top: 4px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px 0px rgb(206, 206, 206);
+    position: absolute;
+    z-index: 1;
+    transition: all .5s;
+}
+.Events .info .sec-1:hover .C1
+{
+    border-top: 4px solid #006fbe;
+}
+
+.C1 h1
+{
+    color: #1d284b;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.C1 h2
+{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(54, 53, 53);
+    padding: 20px;
+    text-align: center;
+}
+
+.C1 p
+{
+    font-size: 19px;
+    color: rgb(117, 115, 115);
+}
+
+
+/* Events ends */
+
+
+
+/* Footer start */
+
+.footer
+{
+    height: 310px;
+    background: #1d284b;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 0;
+    /* border: 2px solid red; */
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer h2
+{
+    font-size: 38px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 15px 0;
+}
+
+.footer .footer-para
+{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0 0 40px 0;
+}
+
+.footer-icon
+{
+    /* border: 2px solid red; */
+    margin: 30px;
+}
+
+.footer-icon .footer-icon-i
+{
+    font-size: 20px;
+    display: inline-block;
+    background: #006fbe;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.footer .copyright
+{
+    margin-bottom: 5px;
+}
+/* Footer end */
+
+
+/* scroll arrow starts */
+.scroll-arrow
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: #006fbe;
+    /* border: 2px solid yellow; */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
+.scroll-arrow a{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+/* scroll arrow ends */
